@@ -17,8 +17,6 @@ sinatra-app-template/
 ├── config.ru
 ├── .rspec
 ├── .gitignore
-├── views
-│   └── .keep
 ├── spec
 │   └── spec_helper.rb
 │   └── controllers
