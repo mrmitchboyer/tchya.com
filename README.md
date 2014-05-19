@@ -9,43 +9,37 @@ resources: 0
 ## Structure
 
 ```bash
-sinatra-app-template/
+sinatra-ar-lab-template/
+├── Gemfile
+├── Gemfile.lock
 ├── README.md
 ├── Rakefile
-├── Gemfile.lock
-├── Gemfile
-├── config.ru
-├── .rspec
-├── .gitignore
-├── spec
-│   └── spec_helper.rb
-│   └── controllers
-│       └── .keep
-│   └── features
-│       └── .keep
-│   └── models
-│       └── .keep
-├── public
-│   └── stylesheets
-│       └── .keep
 ├── app
-│   └── models
-│       └── .keep
-│   └── views
-│       └── layout.erb
-│   └── controllers
-│       └── application_controller.rb
+│   ├── controllers
+│   │   └── application_controller.rb
+│   ├── models
+│   │   └── sample_model.rb
+│   └── views
+│       └── layout.erb
+├── config
+│   └── environment.rb
+├── config.ru
 ├── db
-│   └── migrate
-│        └── .keep
-│   └── seeds.rb
-└── config
-    └── environment.rb
-
+│   ├── migrate
+│   ├── seeds.rb
+│   └── test.sqlite
+├── public
+│   └── stylesheets
+└── spec
+    ├── controllers
+    ├── features
+    ├── models
+    │   └── sample_model_spec.rb
+    └── spec_helper.rb
 ```
 
 ## Usage
 
-This template is for Sinatra-based labs with an MVC structure that utilize the ActiveRecord ORM.
+This template is for Sinatra-based labs with an MVC structure that use ActiveRecord.
 
 ## Resources
