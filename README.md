@@ -1,5 +1,5 @@
 ---
-tags: sinatra
+tags: sinatra, template
 languages: ruby
 resources: 0
 ---
