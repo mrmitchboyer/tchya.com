@@ -4,7 +4,6 @@ class ApplicationController < Sinatra::Base
   set :views, Proc.new { File.join(root, "../views/") }
 
   get '/' do
-    @message = "hello from the controller"
     erb :index
   end
 end
