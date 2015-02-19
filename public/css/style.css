@@ -470,11 +470,7 @@ textarea.form-control {
 
 #home {
 	padding: 0;
-	background: url(../images/tweed_@2X.png) repeat center center fixed !important; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: black;
 }
 
 .intro {
