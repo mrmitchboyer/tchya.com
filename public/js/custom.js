@@ -54,6 +54,25 @@
 			$(".js-height-full").height($(window).height());
 		});
 
+		$('#home').backstretch([
+			'images/background/3813032914CHYH_2K_60_C02_2398.jpg',
+			'images/background/CFHF0002000H_C07_2398.jpg',
+			'images/background/JAY_30_C03_2398H.jpg',
+			'images/background/MBUSA_53_C11_2398.jpg',
+			'images/background/MIDWULS_1_60_C12A_2398H.jpg',
+			'images/background/NBAI5821H_C10_2398.jpg',
+			'images/background/NBCU9037H.ASTRO.NBC_DATELINE.30.C12.2398H.jpg',
+			'images/background/NHTSA_WEB_ENG_30_C15_2398H.jpg',
+			'images/background/PBTV2014018H_30_C03_2398.jpg',
+			'images/background/RIA_30_C05_2398H_V09.jpg',
+			'images/background/ROCKET_45_C03_2398.jpg',
+			'images/background/RPFR3015000H_30_C04_2398.jpg',
+			'images/background/XVSR3015H_30_C01_2398.jpg',
+			'images/background/YMYM021000H_C11_60_2398H.jpg',
+			'images/background/YVWN4090000H_60_C06_2398.jpg'
+		], {duration: 3000, fade: 750});
+
+
 		/* ---------------------------------------------- /*
 		 * Twitter
 		/* ---------------------------------------------- */

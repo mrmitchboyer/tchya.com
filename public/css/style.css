@@ -469,15 +469,12 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(images/home1.jpg);
-	background-color: #222;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
 	padding: 0;
+	background: url(../images/tweed_@2X.png) repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .intro {
@@ -540,7 +537,7 @@ textarea.form-control {
 
 .side-image {
 	position: absolute;
-	background: url(../images/about.jpg) scroll center no-repeat;
+	background: url("http://photos-b.ak.instagram.com/hphotos-ak-xaf1/t51.2885-15/10963929_1592193190998841_2730857_n.jpg") scroll center no-repeat;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;

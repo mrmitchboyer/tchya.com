@@ -7,4 +7,9 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  get '/portfolio/video/:id' do
+    @video_id = params[:id]
+    erb :video
+  end
+
 end
