@@ -1,10 +1,10 @@
 #TODOs
 
 ##MITCH
--[x] load movies
--[x] slideshow
--[x] randomize slideshow
--[x] blue/grey layer over sideshow pictures
+[x] load movies
+[x] slideshow
+[x] randomize slideshow
+[x] blue/grey layer over sideshow pictures
 
 ##TCHYA
 [x] vimeo reels
